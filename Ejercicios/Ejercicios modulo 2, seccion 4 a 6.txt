@@ -1,0 +1,57 @@
+1. Escribe el siguiente programa. 
+    Crea las siguientes variables:
+    - Una variable para almacenar tu nombre y apellido.
+    - Una variable para almacenar tu edad.
+    - Una variable para almacenar tu fecha de nacimiento.
+
+Imprime la salida de la siguiente manera:
+
+|      Nombre      |       Edad         |     Fecha de Nacimiento   |
+
+    Rodrigo Lopez           25                     11/01/1999
+
+
+2. Visualiza el siguiente código
+
+dolar_price = 20.46
+mexican_peso_quantity = 39850
+pesos_to_dolar = round(mexican_peso_quantity / dolar_price, 2)
+
+print(mexican_peso_quantity, "pesos mexicanos es igual a:", pesos_to_dolar, "dolares", sep=" ")
+
+
+Nota: round() - sirve para redondear a un número específico de decimales, en este caso 2.
+
+2.1 - Agrega comentarios que consideres necesarios para explicar el código.
+2.2 - Para finalizar ejecuta el código para validar que no existen errores.
+
+
+
+3. Escribe un programa que pida al usuario su nombre, estatura (en metros, ej. 1.71) y edad.
+
+    3.1 - Convierte la estatura a centímetros.
+    3.2 - Convierte la estatura a pies.
+    3.3 - Convierte la estatura a pulgadas.
+    3.4 - Convierte la estatura a pies y pulgadas.
+
+Imprime la salida de la siguiente manera:
+
+|      Nombre      |       Edad         |
+    
+    Rodrigo Lopez           25
+
+
+|                            Estatura                             |
+|    m     |    cm     |    ft    |    in     |       ft - in     |
+|   1.71   |    171    |   5.61   |    67.32  |      5ft + 7in    |
+
+
+Nota: Recuerda que un pie es igual a 30.48 cm y una pulgada es igual a 2.54 cm.
+
+
+4. Escribe un programa que calcule la velocidad. Recuerda que la fórmula para calcular la velocidad es:
+
+            Velocidad  = Distancia / Tiempo
+
+        4.1 - El usuario debe ingresar los valores de distancia y tiempo.
+        4.2 - La salida debe mostrar la velocidad.

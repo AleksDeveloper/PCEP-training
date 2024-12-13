@@ -1,0 +1,57 @@
+1) Crea una tupla con los meses del año (ordenados) y pide al usuario que ingrese un número. Imprime en pantalla
+el mes correspondiente.
+
+Ej. El usuario ingresa el número 7
+
+--- El mes número 7 es Julio ---
+
+2) Crea una tupla con números enteros, pide un número por teclado e imprime cuantas veces se repite.
+
+3) Crea una tupla con números enteros e imprime el número con mayor valor y el que menor tenga.
+
+4) Escribe un programa que guarde en un diccionario los precios de las frutas de la tabla de abajo. Preguntar al usuario por una fruta y 
+cantidad de kilos. Imprime en pantalla el precio de esa cantidad de kilos de fruta. Si la fruta no está en el diccionario debe mostrar
+un mensaje informando de ello.
+
+Fruta	Precio (Por kilo)
+Plátano	       5.35
+Manzana	       3.80
+Pera	       4.85
+Naranja	       9.70
+
+Ej. Si el usuario ingreso Manzana y 3 kilos
+
+--- El precio de 3 kilos de Manzana es 11.4 ---
+
+5) Considerando el ejercicio anterior, agrega lo siguiente:
+
+    1: Agrega un menu que tenga las siguientes opciones:
+        a) Agregar Fruta
+        b) Carrito de Compras
+        c) Pagar
+        d) Salir
+
+    2: En la opción de "Agregar Fruta" se debe permitir al usuario agregar una fruta con su precio al diccionario creado anteriormente. 
+    Nota: Al terminar de agregar la fruta, se debe regresar al Menú.
+    3: En la opción de "Carrito de Compras" se le preguntará al usuario por una fruta y la cantidad de kilos, almacenar este valor en un 
+    diccionario (Ej. {"Manzana": 7.60, "Pera": 4.85}). El usuario decidirá cuando desea terminar de agregar Frutas y se le debe dar la 
+    opción de Continuar o Regresar al Menú.
+    Nota: En dado caso que el usuario ingrese una fruta ya existente en el carrito de compras, se deberá agregar esa nueva cantidad al 
+    valor almacenado.
+    4: En la opción "Pagar", se deberá imprimir el carrito de compras y mostrar el total de la compra.
+    
+    Ejemplo:
+
+    Carrito de Compras
+    Fruta       Kilos        Total
+    Manzana       2          7.60
+    Pera          1          4.85
+
+    Total ------------------ 12.45
+
+    Después de imprimir el carrito de compras se debe de terminar el programa.
+    
+    Nota: En caso de no contar con frutas en el carrito de compras, se debe mostrar
+    un mensaje mencionando que el carrito esta vacio y 
+
+    5: En la opción "Salir" se deberá terminar el programa.

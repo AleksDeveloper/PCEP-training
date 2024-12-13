@@ -1,0 +1,21 @@
+1. Crea una lista del super, agrega los siguientes productos e imprime la lista: "pan", "leche", "azucar" 
+Salida: ["pan", "leche", "azucar"]
+
+Agrega los siguientes dos productos a la lista ya existente e imprimela de nuevo: "cereal", "chocolate"
+Salida: ["pan", "leche", "azucar", "cereal", "chocolate"]
+
+Por ultimo, elimina el ultimo producto de la lista e imprimela.
+Salida: ["pan", "leche", "azucar", "cereal"]
+
+2. Crea una lista que contenga los siguientes numeros: 50, 15, 200, 25, 95. Posteriormente, realiza el procedimiento necesario para obtener el numero mas grande de la lista e imprimelo
+Salida: 'El numero mas grande es: 200'
+
+3. Crea una lista con los números del 1 al 5 e inviértela, de tal modo que la salida se vea de la siguiente manera:
+Salida: [5,4,3,2,1]
+
+4. Crea una lista con las siguientes letras: ['a', 'b', 'c', 'e', 'i', 'o', 'u', 'x', 'z']. Posteriormente, cuenta cuentas vocales hay en la lista e imprimelas.
+Salida: "En la lista hay: 5 vocales"
+
+5. Escribe un programa que cree una lista con los cuadrados de cada numero del 1 al 5 e imprimela en pantalla. Finalmente, imprime la suma de dicha lista.
+Salida: [1,4,9,16,25]
+Salida: "La suma de la lista anterior es: 55"

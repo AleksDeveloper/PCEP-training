@@ -1,0 +1,10 @@
+productos = []
+productos.append("pan")
+productos.append("leche")
+productos.append("azucar")
+print(productos)
+productos.append("cereal")
+productos.append("chocolate")
+print(productos)
+productos.pop()
+print(productos)

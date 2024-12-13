@@ -1,0 +1,26 @@
+1. Escribe un programa que imprima en pantalla  el siguiente texto:
+"Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
+
+De forma que la salida se observe de la siguiente manera: 
+
+Twinkle, twinkle, little star,
+	How I wonder what you are!
+		Up above the world so high,
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are
+
+Nota: Para imprimir un espacio en blanco puedes utilizar “\n”, mientras que para imprimir una tabulación, se puede utilizar “\t”
+
+2. Imprime en pantalla "hola mundo" en clave morse. Cada letra debe de ir separada por un espacio en blanco, y cada palabra en un renglón distinto. Ejemplo:
+
+.... --- .-.. .-
+-- ..- -. -.. ---
+
+3. Imprimir en pantalla la conversión de segundos a las diferentes unidades de tiempo, tal y como se muestra en el siguiente ejemplo: "100700 segundos es el equivalente a: 1 dia, 27 horas, 1678 minutos"
+	
+	a) 65000 segundos
+	b) 180000 segundos
+ 
+4. ¿Podrías explicar porque la siguiente expresión imprime un "True" en la pantalla?
+print(False < (True > (True < False)))

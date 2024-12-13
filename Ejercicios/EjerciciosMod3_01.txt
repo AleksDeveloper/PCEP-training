@@ -1,0 +1,46 @@
+Ejercicio #1
+
+Escribe un codigo que ayude en la politica de reembolso, las clausulas son las siguientes:
+se puede regresar si:
+	Han pasado 10 dias o menos y el articulo no esta usado
+	No importa el tiempo si el articulo tiene defecto de fabrica y no funciona
+El programa debe de preguntar 3 cosas: 
+¿Cuantos dias han pasado desde la compra?
+¿El producto ha sido usado?
+¿El Producto tiene defectos de fabrica?
+El programa debe decidir de acuerdo a las clausulas si el producto se puede reembolsar.
+El programa debe imprimir el resultado
+
+Ejercicio #2
+Escribe un programa que simule un juego de adivinar una fecha:
+Pregunta al usuario cuando fue el año de la primer pelicula de Chucky(1988)
+si se pasa manda el mensaje a pantalla
+	"Fue un poco antes"
+si es menor manda el siguiente mensaje a pantalla
+    "Fue un poco despues"
+Si adivina imprime en pantalla el siguiente mensaje y despues termina el programa
+    "Correcto"
+nota: el código debe de seguir ejecutándose en caso de aun no haber adivinado el año correcto de la película.
+
+Ejercicio #3
+Cuantos asteriscos imprime el siguiente codigo:
+
+i = 0
+while i <= 10:
+    i += 1
+    if i % 2 == 0:
+        print("*")
+		
+Ejercicio #4
+
+Completa el  código, de manera que el loop, cuando i=3, se salte a la siguiente iteración :
+El siguiente loop, cuando i =3, salta a la siguiente iteracion:
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    <<tu codigo aqui>>
+  print(i)
+  
+Ejercicio #5
+Escribe un código que compare dos números `a` y `b` (por ejemplo, 7 y 10) e imprima si `a` es mayor, menor o igual a `b`.

@@ -1,0 +1,32 @@
+1. El siguiente código calcula las raíces de una ecuación cuadrática. Sin embargo, hay dos excepciones que se pueden manejar al respecto: Cuando se produce la division entre 0 y cuando la raíz del discriminante es menor a 0, la cual traerá raíces complejas. Modifica la función "raices_ecuacion_cuadratica" de modo que reemplaces el <tipo_de_error>, por el tipo de excepción según sea el caso. 
+
+En el curso se vieron las siguientes: ValueError, ZeroDivisionError, TypeError y AttributeError.
+
+from math import sqrt  
+def raices_ecuacion_cuadratica(a,b,c):
+    try:
+        raiz_discriminante = sqrt(b**2 - 4*a*c)
+        x1, x2 = ((-b + raiz_discriminante)/(2*a), (-b - raiz_discriminante)/(2*a))
+        print(f"Las raices de la ecuacion son: {x1}, {x2}")
+    except <tipo_de_error>:
+        print('La ecuacion no es de primer grado')
+    except <tipo_de_error>:
+        print('Raices complejas')
+
+Prueba el código con los siguientes ejemplos:
+raices_ecuacion_cuadratica(1,2,-15)
+raices_ecuacion_cuadratica(1,1,1)
+raices_ecuacion_cuadratica(0,1,2)
+raices_ecuacion_cuadratica(1,0,-3)
+
+2. El siguiente código trata acerca de adivinar un número, entre el 1 y el 10, generado de manera aleatoria. El código tiene algunas errores colocados a propósito. La idea consiste en añadir un bloque try-except, con la finalidad de que el código siga iterando a pesar de colocar un valor que no numérico.
+
+from random import randrange
+numero_aleatorio = randrange(1,11)
+while True:
+    intento_adivinar_numero = int(input('Ingresa un numero aleatorio: '))
+    if numero_aleatorio == intento_adivinar_numero:
+        print('Le atinaste al numero')
+        break
+    else:
+        print('Sigue intentando')
