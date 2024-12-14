@@ -1,6 +1,12 @@
-1. El siguiente código calcula las raíces de una ecuación cuadrática. Sin embargo, hay dos excepciones que se pueden manejar al respecto: Cuando se produce la division entre 0 y cuando la raíz del discriminante es menor a 0, la cual traerá raíces complejas. Modifica la función "raices_ecuacion_cuadratica" de modo que reemplaces el <tipo_de_error>, por el tipo de excepción según sea el caso. 
+1. El siguiente código calcula las raíces de una ecuación cuadrática. Sin embargo,
+ hay dos excepciones
+ que se pueden manejar al respecto: Cuando se produce la division entre
+  0 y cuando la raíz del discriminante es menor a 0, la cual traerá raíces 
+  complejas. Modifica la función "raices_ecuacion_cuadratica" de modo que 
+  reemplaces el <tipo_de_error>, por el tipo de excepción según sea el caso. 
 
-En el curso se vieron las siguientes: ValueError, ZeroDivisionError, TypeError y AttributeError.
+En el curso se vieron las siguientes: ValueError, ZeroDivisionError, TypeError 
+y AttributeError.
 
 from math import sqrt  
 def raices_ecuacion_cuadratica(a,b,c):
